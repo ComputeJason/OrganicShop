@@ -28,6 +28,8 @@ const slugifyDataJson = dataJson.map((el) => {
 console.log(slugifyDataJson);
 
 const server = http.createServer((req, res) => {
+	console.log(req);
+
 	const urlData = url.parse(req.url, true);
 	const path = urlData.pathname;
 	const query = urlData.query;
