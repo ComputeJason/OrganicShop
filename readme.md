@@ -10,8 +10,9 @@ npm install
 node index.js
 (alternatively, script "npm start" activates nodemon)
 ```
+Run localhost:8000/ in browser to open the Overview page :) 
 
-## Pages 
+## Pages
 - Overview page -->  Summary of all products 
 
 <p align="center">
